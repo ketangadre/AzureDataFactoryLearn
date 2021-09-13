@@ -1,0 +1,25 @@
+{
+	"name": "Oracle_03",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"HostIP": {
+				"type": "String",
+				"defaultValue": "129.213.155.108"
+			},
+			"OraclePW": {
+				"type": "String",
+				"defaultValue": "ITis1b_gD6#15"
+			},
+			"OracleSvcName": {
+				"type": "String",
+				"defaultValue": "fcita03_pdb1.sub04241534160.virtualcloudnet.oraclevcn.com"
+			}
+		},
+		"annotations": [],
+		"type": "Oracle",
+		"typeProperties": {
+			"connectionString": "host=@{linkedService().HostIP};port=1521;serviceName=@{linkedService().OracleSvcName};user id=SYSTEM;Password=@{linkedService().OraclePW}"
+		}
+	}
+}

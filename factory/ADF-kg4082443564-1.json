@@ -1,0 +1,9 @@
+{
+	"name": "ADF-kg4082443564-1",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6f47c6da-f654-499a-ad77-5085e7d38d94",
+		"tenantId": "4b116645-acc1-4f1b-ab02-cf1bddf86053"
+	}
+}

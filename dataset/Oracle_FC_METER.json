@@ -1,0 +1,17 @@
+{
+	"name": "Oracle_FC_METER",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Oracle_03",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "OracleTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "FCOWNER",
+			"table": "FC_METER"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
